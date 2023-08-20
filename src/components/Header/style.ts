@@ -1,8 +1,13 @@
 // components/Header.styles.ts
 
 import styled from 'styled-components';
+import { lightTheme } from '../../styles/GlobalStyles';
 
-export const StyledHeader = styled.header`
+interface IStyledHeaderProps {
+  scrolled: boolean;
+}
+
+export const StyledHeader = styled.header<IStyledHeaderProps> `
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +18,6 @@ export const StyledHeader = styled.header`
     left: 0;
     right: 0;
     z-index: 1000; // para garantir que fique acima de outros elementos
-    background: none;
+    background: ${({scrolled,}) => scrolled ? lightTheme.colors.background : 'transparent'};
   
 `;
