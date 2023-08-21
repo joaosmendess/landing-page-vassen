@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-        font-family: "Poppins", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.text};
     overflow-x: hidden;
@@ -22,7 +22,7 @@ export const lightTheme = {
       primary: "#F2A81D",
       secondary:  "#27383b",
       background: "#f4f4f4",
-      text: "#333",
+      text: "#243840",
       // ... outros
   },
   breakpoints: {

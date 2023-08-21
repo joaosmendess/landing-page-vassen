@@ -18,17 +18,19 @@ export const HeroContainer = styled.div`
 export const HeroTitle = styled.h1`
      color: white;
      text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: none;
+    font-weight: bold;
     
-    // ... outros estilos para o texto.
+    
 `;
 
 export const HeroSubtitle = styled.h2`
     font-size: 1.5rem;
     color: #fff;  // Branco, ajuste conforme a imagem de fundo
     background:none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
     margin-bottom: 35px;
 `;
 

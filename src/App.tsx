@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles, lightTheme } from "./styles/GlobalStyles";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import AboutUsSection from "./components/AboutUs";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
          <Row>
           <Col xs={12} md={12} xl={12}>
           
-          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia facere voluptas repudiandae soluta ducimus minus deleniti minima molestias adipisci optio consectetur fugit consequuntur cum dolorum in modi voluptatum aperiam!</h1>
+          <AboutUsSection/>
           
           </Col>
          </Row>
