@@ -3,16 +3,13 @@ import {
   AboutUsContainer,
   AboutUsDescription,
   AboutUsHeader,
-  AboutUsImage,
   AboutUsText,
 } from "./style";
+import AboutUsCarousel from "../AboutUsCarrossel";
 
 const AboutUsSection: React.FC = () => (
   <AboutUsContainer>
-    <AboutUsImage
-      src="/assets/images/FUNCIONARIO-VASSEN (1).jpg"
-      alt="Sobre nós"
-    />
+    <AboutUsCarousel/>
     <AboutUsText>
       <AboutUsHeader>Sobre Nós</AboutUsHeader>
       <AboutUsDescription>
