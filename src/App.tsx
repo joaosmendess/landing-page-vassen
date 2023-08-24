@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "./components/Layout/Grid";
-import { ThemeProvider } from "styled-components";
+
 import { GlobalStyles, lightTheme } from "./styles/GlobalStyles";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import AboutUsSection from "./components/AboutUs";
+import { ThemeProvider } from "styled-components";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Col xs={12} md={6} xl={10}>
               <Header />
             </Col>
-            <Col xs={12} md={12} xl={12}>
+            <Col xs={12} md={12} xl={10}>
               <HeroSection />
             </Col>
           </Row>

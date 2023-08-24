@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, 'Roboto',Geneva, Verdana, sans-serif;
         background-color: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.text};
     overflow-x: hidden;

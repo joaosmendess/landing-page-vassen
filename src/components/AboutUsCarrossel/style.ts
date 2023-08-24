@@ -14,6 +14,8 @@ export const CarouselWrapper = styled.div`
     @media (max-width: 992px) {
         max-width: 100%;
     }
+    border: none;
+
 `;
 
 export const ImageWrapper = styled.div`
@@ -23,6 +25,8 @@ export const ImageWrapper = styled.div`
     @media (max-width: 428px) {
         height: 250px; // Ajuste a altura aqui conforme necessário para dispositivos pequenos
     }
+    border: none;
+
 
     img {
         width: 100%;
@@ -31,6 +35,7 @@ export const ImageWrapper = styled.div`
         border-radius: 5px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         cursor: pointer;
+        border: none;
         transition: transform 0.3s;
 
         &:hover {

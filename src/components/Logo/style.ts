@@ -12,4 +12,5 @@ export const StyledLogo = styled.img`
   };
   cursor: pointer;
   background: none;
+  
 `;
