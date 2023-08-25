@@ -7,6 +7,7 @@ import { ThemeProvider } from "styled-components";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import CourseInfo from "./components/CourseInfo";
 
 library.add(faBars);
 
@@ -23,12 +24,13 @@ function App() {
             </Col>
             <Col xs={12} md={12} xl={11}>
               <HeroSection />
+              
             </Col>
           </Row>
          <Row>
-          <Col xs={12} md={12} xl={12}>
+          <Col xs={12} md={12} xl={14}>
           
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus earum commodi quos? Animi possimus vitae debitis tempore explicabo voluptatum id ipsum labore hic aliquam aut adipisci, obcaecati reprehenderit, minima soluta.</p>
+          <CourseInfo/>
           </Col>
          </Row>
 

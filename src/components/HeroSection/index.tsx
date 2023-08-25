@@ -1,6 +1,9 @@
 import React from 'react';
 import { HeroContainer, HeroTitle, HeroSubtitle, TitleContainer, LogoContainer,CTAButton, SubTitle } from './style';
 import Logo from '../Logo';
+// Ajuste o caminho do arquivo conforme necessário
+
+
 
 const HeroSection: React.FC = () => {
     return (

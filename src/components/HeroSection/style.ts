@@ -5,18 +5,20 @@ export const HeroContainer = styled.div`
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 20%), url('/assets/images/CARRO.webp');
     background-size: cover;
     background-position: center;
-    height: 97vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
     text-align: center;
+  border: none;
   
     width: 100vw;
     margin: 0; 
-    border-bottom: 2px solid #F2A81D;
+    
     // Certifique-se de que não há margens indesejadas
 `;
+
 export const TitleContainer= styled.div `
   background: none;
 

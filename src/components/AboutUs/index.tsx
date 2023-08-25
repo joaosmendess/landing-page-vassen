@@ -9,16 +9,16 @@ import AboutUsCarousel from "../AboutUsCarrossel";
 
 const AboutUsSection: React.FC = () => (
   <AboutUsContainer>
-    <AboutUsCarousel/>
+    <AboutUsCarousel />
     <AboutUsText>
-      <AboutUsHeader>Sobre Nós</AboutUsHeader>
+      <AboutUsHeader>Sobre a Vassen</AboutUsHeader>
       <AboutUsDescription>
-        A Vassen Car Care foi fundada em 2018 com o objetivo de nos dedicar a
-        proporcionar aos nossos clientes o melhor em estética automotiva. Nossa
-        paixão por carros e compromisso com a excelência nos tornou uma escolha
-        confiável em Maceió AL. Ao longo dos anos, nos estabelecemos como uma
-        referência no mercado de estética automotiva, trazendo sempre inovações
-        e o mais alto padrão de qualidade em nossos serviços.
+        Criada em Março de 2018, em formato Delivery, do alemão Wasser (água ou
+        lavar), nasceu a Vassen. Buscando elevar o padrão dos serviços e
+        atendimentos do setor automotivo. Sempre inovando com serviços
+        inovadores e com excelência na cidade de Maceió. Iniciado apenas com
+        lavagem a seco, hoje atua na estética automotiva com polimentos,
+        higienizações, lavagem, envelopamento, PPF e cursos.
       </AboutUsDescription>
     </AboutUsText>
   </AboutUsContainer>

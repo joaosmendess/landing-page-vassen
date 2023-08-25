@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { lightTheme } from '../../styles/GlobalStyles';
 import Slider from "react-slick";
 
 export const AboutUsContainer = styled.section`
@@ -80,18 +79,23 @@ export const AboutUsText = styled.div`
         margin: 20px 0; 
     }
 `;
-
-export const AboutUsHeader = styled.h2`
+export const AboutUsHeader = styled.h1`
     font-size: 2.8rem;
-    margin-bottom: 25px;  // Ligeiro ajuste no espaçamento
-    color: ${lightTheme.colors.text};
+    margin-bottom: 25px;
+    background: linear-gradient(45deg, #F2A81D, #FF8C00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;  // Tornando a cor do texto transparente para que o gradiente apareça
     font-weight: 600;
 `;
+
 
 export const AboutUsDescription = styled.p`
     font-size: 1.2rem;
     line-height: 1.7;
-    color: #555;
+    color: #f8f8f8;
+    line-height: 150%;
+    font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 20px;  // Espaçamento no final para separar do próximo elemento
