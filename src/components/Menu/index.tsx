@@ -1,19 +1,20 @@
-import React from 'react';
+import React, {} from 'react';
 import { StyledMenu, MenuItem } from './style';
-import ThemeToggler from '../ThemeToggler';
 
-const Menu: React.FC = () => {
+interface MenuProps {
+  menuOpen: boolean;
+}
+const Menu: React.FC<MenuProps> = ({ menuOpen }) => {
   return (
-    <StyledMenu>
+    <StyledMenu menuOpen={menuOpen}>
       <MenuItem>Home</MenuItem>
       <MenuItem>Sobre Nós</MenuItem>
       <MenuItem>Serviços</MenuItem>
       <MenuItem>Galeria</MenuItem>
       <MenuItem>Contato</MenuItem>
-      <ThemeToggler checked= {false} onChange={() => ("ola")} />
-      {/* Adicione mais itens conforme necessário */}
     </StyledMenu>
   );
 }
+
 
 export default Menu;

@@ -1,19 +1,21 @@
 import React from 'react';
-import { HeroContainer, HeroTitle, HeroSubtitle, TitleContainer, LogoContainer,CTAButton } from './style';
+import { HeroContainer, HeroTitle, HeroSubtitle, TitleContainer, LogoContainer,CTAButton, SubTitle } from './style';
 import Logo from '../Logo';
 
 const HeroSection: React.FC = () => {
     return (
         <HeroContainer>
-            <TitleContainer>
-            <HeroTitle>VASSEN CAR CARE</HeroTitle>
-            <HeroSubtitle>WORKSHOP DE POLIMENTO & VITRIFICAÇÃO</HeroSubtitle>
-            </TitleContainer>
             <LogoContainer>
             <Logo/>
 
-            </LogoContainer>
-            <CTAButton>Agende Agora!</CTAButton>
+</LogoContainer>
+            <TitleContainer>
+            <HeroTitle>TORNE-SE UM <span> ESPECIALISTA EM POLIMENTO E VITRIFICAÇÃO !</span> </HeroTitle>
+            <HeroSubtitle>O melhor e mais completo curso sobre polimento e vitrificação do mercado.</HeroSubtitle>
+            </TitleContainer>
+            
+            <CTAButton>Garantir minha vaga!</CTAButton>
+            <SubTitle>Aproveite, as vagas são limitadas!</SubTitle>
         </HeroContainer>
     );
 }
