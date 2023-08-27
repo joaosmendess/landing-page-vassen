@@ -6,20 +6,20 @@ const CourseInfo: React.FC = () => {
     <InfoWrapper>
         
       <InfoItem>
-        <Count>+300</Count>
-        <Description>aulas (e contando) para ver e rever quando quiser</Description>
+        <Count>Certificado de Conclusão</Count>
+        <Description>Comprove sua especialização em polimento e vitrificação e destaque-se no mercado</Description>
       </InfoItem>
       <InfoItem>
-        <Count>+1.7k</Count>
-        <Description>alunos matriculados e participando da comunidade</Description>
+        <Count>Material completo</Count>
+        <Description>repleto de orientações detalhadas e dicas especializadas </Description>
       </InfoItem>
       <InfoItem>
-        <Count>7 dias</Count>
-        <Description>de garantia incondicional para testar o curso</Description>
+        <Count>3 dias</Count>
+        <Description>intensivos de aprendizado e prática direcionados para a excelência profissional no setor</Description>
       </InfoItem>
       <InfoItem>
-        <Count>Acesso vitalício</Count>
-        <Description>para assistir sem pressa, no seu ritmo</Description>
+        <Count>Uma chance única!</Count>
+        <Description> Sorteio de uma experiência de uma semana trabalhando na Vassen</Description>
       </InfoItem>
     </InfoWrapper>
   );

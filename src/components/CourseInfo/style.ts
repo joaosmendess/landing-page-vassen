@@ -24,7 +24,7 @@ export const InfoItem = styled.div`
 
 export const Count = styled.span`
   display: block;
-  font-size: 2.3rem;
+  font-size: 28px;
  
 
   font-weight: bold;
@@ -38,4 +38,5 @@ export const Description = styled.span`
   box-sizing: border-box;
     font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
     opacity: 2.8;
+    color: #f8f8fa;
 `;

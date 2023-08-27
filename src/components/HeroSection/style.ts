@@ -26,17 +26,36 @@ export const TitleContainer= styled.div `
   &::before, &::after { 
     content: '';
     display: block;
-    width: 200px;
+    margin: 20px auto;
+    max-width: 20%;
+
     border-bottom: 10px solid #F2A81D;
-    margin: 20px 435px;
   }
 
   &::before {
     border-top: 10px solid #F2A81D;
     border-bottom: none;
-    width: 200px;
+    width:200px;
   
   }
+
+  @media (max-width: 768px) {
+      
+    &::before, &::after { 
+    
+   
+    max-width: 50%;
+
+  }
+
+  &::before {
+    
+    width:50%;
+  
+  }
+        
+
+    }
 `;
 
 export const LogoContainer = styled.div `
@@ -62,6 +81,13 @@ export const HeroTitle = styled.h1`
     background-clip: text; // aplica a imagem de fundo como cor do texto
     -webkit-background-clip: text; // necessário para garantir compatibilidade com navegadores baseados em WebKit
   }
+  @media (max-width: 768px) {
+      font-size: 20px;
+      overflow-wrap: break-word;
+
+        
+
+    }
     
     
 `;
@@ -74,8 +100,14 @@ export const HeroSubtitle = styled.h2`
     font-size: 1.125rem;
     font-weight: normal;    
     @media (max-width: 768px) {
-        font-size: 1rem;
-        word-wrap: break-word;
+      font-size: 13px;
+      overflow-wrap: break-word;
+      
+
+  // Ajuste conforme a necessidade
+
+
+        
 
     }
     @media (  min-width: 768px) {
