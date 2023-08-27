@@ -12,11 +12,12 @@ export const InfoWrapper = styled.div`
     @media (max-width: 768px) { 
     flex-direction: column;
   }
+
 `;
 
 export const InfoItem = styled.div`
   flex: 2;
-  min-width: 200px; 
+  min-width: 150px; 
   padding: 10px;
   text-align: center;
   

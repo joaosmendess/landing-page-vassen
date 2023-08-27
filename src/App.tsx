@@ -8,6 +8,8 @@ import { ThemeProvider } from "styled-components";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import CourseInfo from "./components/CourseInfo";
+import MainPage from "./components/MainPage";
+import Module from "./components/Title";
 
 library.add(faBars);
 
@@ -43,10 +45,9 @@ function App() {
           </Col>
          </Row>
          <Row>
-          <Col xs={12} md={12} xl={12}>
-          
-          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, officia facere voluptas repudiandae soluta ducimus minus deleniti minima molestias adipisci optio consectetur fugit consequuntur cum dolorum in modi voluptatum aperiam!</h1>
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, commodi. Maxime numquam quisquam laboriosam corporis blanditiis dolorem modi repellat laudantium, placeat veniam distinctio voluptatibus amet esse quos doloremque facilis delectus?</h2>
+          <Col xs={12} md={12} xl={14}>
+          <Module/>
+        <MainPage/>
           
           </Col>
          </Row>
