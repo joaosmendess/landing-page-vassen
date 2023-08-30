@@ -14,7 +14,7 @@ font-size: 2rem;
 
 export const TitleDiv = styled.div `
 display: flex;
-
+margin-top: 30px;
 display: flex;
 justify-content: center;
 `

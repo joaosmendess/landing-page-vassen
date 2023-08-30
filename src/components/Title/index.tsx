@@ -1,10 +1,15 @@
 import React from 'react'
 import {TitleDiv,Title} from './style'
 
- const Module: React.FC = () => {
+
+interface ITitle {
+  title: string;
+}
+
+ const Module: React.FC <ITitle> = ({title}) => {
   return (
     <TitleDiv>
-    <Title>Como funciona?</Title>
+    <Title >{title} </Title>
 
     </TitleDiv>
   )

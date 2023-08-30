@@ -10,6 +10,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import CourseInfo from "./components/CourseInfo";
 import MainPage from "./components/MainPage";
 import Module from "./components/Title";
+import CourseOrigin from "./components/CourseOrigin";
 
 library.add(faBars);
 
@@ -44,10 +45,18 @@ function App() {
           
           </Col>
          </Row>
+
          <Row>
           <Col xs={12} md={12} xl={14}>
-          <Module/>
+         <CourseOrigin/>
+          </Col>
+         </Row>
+
+         <Row>
+         <Col xs={12} md={12} xl={14}>
+         <Module title="Como funciona?"/>
         <MainPage/>
+          
           
           </Col>
          </Row>
