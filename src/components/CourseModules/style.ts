@@ -3,10 +3,12 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    margin-bottom: 2rem;
+
+    
 display: flex;
 
 flex-direction: column;
+background: none;
 
 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -16,7 +18,7 @@ flex-direction: column;
 
         
 
-    }
+    } 
 `;
 
 export const ModuleContainer = styled.div`

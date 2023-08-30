@@ -15,7 +15,7 @@ export const HeroContainer = styled.div`
   
     width: 100vw;
     margin: 0; 
-    
+
     // Certifique-se de que não há margens indesejadas
 `;
 
@@ -43,7 +43,7 @@ export const TitleContainer= styled.div `
       
     &::before, &::after { 
     
-   
+  
     max-width: 50%;
 
   }
@@ -63,6 +63,15 @@ export const LogoContainer = styled.div `
 display: flex;
 justify-content: center;
 background: none;
+
+@media (max-width: 768px) {
+      
+     
+      
+     margin-top: 65px;
+   
+  
+    }
 `
 
 export const HeroTitle = styled.h1`
@@ -82,12 +91,19 @@ export const HeroTitle = styled.h1`
     -webkit-background-clip: text; // necessário para garantir compatibilidade com navegadores baseados em WebKit
   }
   @media (max-width: 768px) {
-      font-size: 20px;
+      font-size: 18px;
       overflow-wrap: break-word;
 
         
 
     }
+
+    @media (  min-width: 768px) {
+        font-size: 2rem;
+       
+
+    }
+
     
     
 `;
@@ -100,7 +116,7 @@ export const HeroSubtitle = styled.h2`
     font-size: 1.125rem;
     font-weight: normal;    
     @media (max-width: 768px) {
-      font-size: 13px;
+      font-size: 15px;
       overflow-wrap: break-word;
       
 
@@ -111,7 +127,7 @@ export const HeroSubtitle = styled.h2`
 
     }
     @media (  min-width: 768px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
         word-wrap: break-word;
 
     }
@@ -120,36 +136,12 @@ export const HeroSubtitle = styled.h2`
     margin-bottom: 40px;
 `;
 
-export const CTAButton = styled.button`
-  padding: 12px 25px;
-  color: #091013;
-  background: linear-gradient(45deg, #F8CF2C, #FF8C00); // Gradiente do amarelo para o laranja
-  border: none;
-  border-radius: 25px; 
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s; 
-  outline: none; 
-  letter-spacing: 1px; 
-  font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
-  font-size: 1.125rem;
-  font-weight: 600; 
-  margin-top: 20px;
 
-  &:hover {
-      background: linear-gradient(45deg, #FF8C00, #F8CF2C); // Inverte o gradiente quando pairado
-      transform: translateY(-2px); 
-  }
-
-  &:active {
-      transform: translateY(1px); 
-  }
-`;
 
 export const SubTitle = styled.small `
  color: #f8f8fa; 
  background: none;
- font-size: 1rem;
+ font-size: 1.2rem;
  opacity: 0.6;
  font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
 margin-top: 10px;

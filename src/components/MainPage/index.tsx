@@ -1,7 +1,9 @@
 import React from 'react';
 import CourseModules from './../CourseModules';
 import CourseModule  from '../../types';
-import { Container,  } from './style';
+import { Container,ModuleContainer  } from './style';
+
+import Module from './../Title';
 
 
 const modules: CourseModule[] = [
@@ -52,7 +54,11 @@ const modules: CourseModule[] = [
   
   const MainPage: React.FC = () => {
     return (
-      <Container>
+      <Container  id="main-page">
+        <ModuleContainer >
+        <Module title='Como funciona?'/>
+
+        </ModuleContainer>
      
         {/* ... outras seções da página ... */}
         <CourseModules modules={modules} />

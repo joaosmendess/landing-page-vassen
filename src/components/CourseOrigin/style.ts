@@ -4,6 +4,11 @@ export const SectionContainer = styled.section`
     padding: 2rem 0;
     background-color: none; // Altere a cor de fundo conforme necessário
     text-align: center;
+    margin-bottom: 38px;
+    
+  
+   
+
     
     
 `;
@@ -14,7 +19,16 @@ export const Title = styled.h2`
     background: linear-gradient(45deg, #F2A81D, #FF8C00); // Começa com o amarelo e transita para um laranja harmonioso
     color: transparent; // torna a cor do texto transparente para que o gradiente apareça
     background-clip: text; // aplica a imagem de fundo como cor do texto
-    -webkit-background-clip: text; // necessário para garantir compatibilidade com navegadores baseados em WebKit
+    -webkit-background-clip: text; 
+    padding: 0 1rem;
+
+    @media (max-width: 768px) {
+    font-size: 1.5rem;
+        
+
+        
+
+    }// necessário para garantir compatibilidade com navegadores baseados em WebKit
 `;
 
 export const Description = styled.p`
@@ -26,7 +40,9 @@ export const Description = styled.p`
     text-align: justify;
     text-justify: inter-word;
     max-width: 800px;
+    padding: 0 1rem;
     margin: 0 auto;
+   
 
     >span {
         font-weight: bold;

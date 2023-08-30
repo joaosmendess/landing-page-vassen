@@ -7,6 +7,7 @@ export const AboutUsContainer = styled.section`
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 15px;
 
     @media (max-width: 768px) {
         padding: 60px 5%;  // Ajustando o padding

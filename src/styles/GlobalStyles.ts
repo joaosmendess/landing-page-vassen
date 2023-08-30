@@ -10,7 +10,9 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #000;
     
   }
-
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     font-family: 'Segoe UI', Tahoma, 'Roboto',Geneva, Verdana, sans-serif;
         color: ${props => props.theme.colors.text};
