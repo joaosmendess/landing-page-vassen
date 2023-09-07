@@ -10,7 +10,7 @@ interface Props {
 
 const CourseModules: React.FC<Props> = ({ modules }) => {
   return (
-    <Container id='#main'>
+    <Container >
       {modules.map((module, index) => (
         <ModuleContainer key={index}>
           <ModuleTitle>{module.day}  </ModuleTitle>

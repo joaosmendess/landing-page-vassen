@@ -1,4 +1,7 @@
+
 import { Container, Row, Col } from "./components/Layout/Grid";
+
+
 
 import { GlobalStyles, lightTheme } from "./styles/GlobalStyles";
 import HeroSection from "./components/HeroSection";
@@ -12,10 +15,21 @@ import MainPage from "./components/MainPage";
 
 import CourseOrigin from "./components/CourseOrigin";
 
+import SpecialOffer from "./components/SpecialOffer";
+
 library.add(faBars);
 
 
-function App() {
+function App() 
+
+
+
+{
+  
+
+ 
+
+
   return (
     <ThemeProvider theme={lightTheme}>
       <>
@@ -59,6 +73,15 @@ function App() {
           
           
           </Col>
+
+         </Row>
+
+         <Row>
+          <Col xs={13.5} md={12} xl={14}>
+          <SpecialOffer originalPrice={1000} newPrice={850} installments={10} />
+        
+  
+        </Col>
          </Row>
         </Container>
       </>

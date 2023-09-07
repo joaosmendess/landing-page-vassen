@@ -14,7 +14,7 @@ const CourseOrigin: React.FC = () => {
 Cada lição aqui é uma parte da minha experiência, das noites estudando técnicas às conversas com outros entusiastas que compartilharam suas próprias dicas e truques. Eu queria criar algo mais do que apenas um curso; eu queria construir uma ponte, conectar pessoas e histórias.
 
 Se você já se sentiu perdido ou apenas quer aprimorar suas habilidades, espero que este curso lhe ofereça tanto conhecimento quanto me ofereceu alegria ao criá-lo. <span>Pronto para dar o próximo passo comigo?</span> 
-            </Description> <br /><br />
+            </Description> <br />   
             <StyledButton as="a" href="#main-page"> Estou Pronto!</StyledButton>
         </SectionContainer>
     );
