@@ -18,15 +18,25 @@ export const InfoWrapper = styled.div`
 
 export const InfoItem = styled.div`
   flex: 2;
-  min-width: 150px; 
+  min-width: 160px; 
   padding: 10px;
   text-align: center;
-  height: 170px;
+  height: 150px;
   margin-bottom: 20px;
  background: rgb(9, 16, 19);
  border: 1px solid rgb(62, 58, 74);
  border-radius: 4px 4px 0px 0px;
+ @media (min-width: 768px ) { 
+    flex-direction: column;
  
+
+  }
+  @media (min-width: 800px ) { 
+  height: 270px;
+    
+ 
+
+  }
  
   
 `;

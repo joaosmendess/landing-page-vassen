@@ -77,7 +77,7 @@ function App()
          </Row>
 
          <Row>
-          <Col xs={13.5} md={12} xl={14}>
+          <Col xs={11} md={12} xl={14}>
           <SpecialOffer originalPrice={1000} newPrice={850} installments={10} />
         
   

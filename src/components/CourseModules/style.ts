@@ -9,12 +9,13 @@ display: flex;
 
 flex-direction: column;
 background: none;
+min-height: 95vh;
 
 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 768px) {
-     width: 350px;
+     width: 380px;
 
         
 

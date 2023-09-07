@@ -9,18 +9,24 @@ interface Props {
 }
 
 const SpecialOffer: React.FC<Props> = ({  newPrice, installments }) => {
+
+  function formatPrice(value: number): string {
+    return value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+  
+
   return (
     <Container>
       <BenefitsList>
         <CatchyText>OK, MAS... <span>QUANTO CUSTA TUDO ISSO?</span></CatchyText>
         <StyledUl >
 
-<StyledLi >Acesso vitalício</StyledLi>
-<StyledLi >Acesso vitalício</StyledLi >
-<StyledLi >Acesso vitalício</StyledLi >
-<StyledLi >Acesso vitalício</StyledLi >
-<StyledLi >Acesso vitalício</StyledLi >
-<StyledLi >Acesso vitalício</StyledLi>
+<StyledLi >Técnicas avançadas</StyledLi>
+<StyledLi >Brindes exclusivos</StyledLi >
+<StyledLi >Mão na massa! Guia prático de como polir</StyledLi >
+<StyledLi >Conhecimento geral sobre estética </StyledLi >
+<StyledLi >Sorteio de uma semana de semana de experiência na nosssa loja!</StyledLi >
+<StyledLi >Certificado de conclusão</StyledLi>
 
         </StyledUl>
       </BenefitsList>
@@ -28,7 +34,7 @@ const SpecialOffer: React.FC<Props> = ({  newPrice, installments }) => {
       <PriceDetails>
         
         <Installment>GARANTA SUA VAGA POR APENAS <span>
-        {installments}x de</span> <strong>R${(newPrice / installments).toFixed(2)}
+        {installments}x de</span><strong>R${formatPrice(newPrice / installments)}
             </strong> </Installment>
         <NewPrice> ou R${newPrice} à vista</NewPrice>
         <BuyButton />

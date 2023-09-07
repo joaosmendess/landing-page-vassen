@@ -7,7 +7,6 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #000;
     
   }
   html {
@@ -17,6 +16,8 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Segoe UI', Tahoma, 'Roboto',Geneva, Verdana, sans-serif;
         color: ${props => props.theme.colors.text};
     overflow-x: hidden;
+    background-color: #000;
+
 
     }
 `;

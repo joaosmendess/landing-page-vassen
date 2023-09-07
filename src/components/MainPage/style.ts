@@ -15,7 +15,7 @@ display: flex;
     width: 100vw;
     margin: 0;
     @media (max-width: 768px) {
-        height: 110vh;
+        height: 140vh;
 
         
 
