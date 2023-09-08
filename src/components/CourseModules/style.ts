@@ -7,9 +7,14 @@ export const Container = styled.div`
     
 display: flex;
 
-flex-direction: column;
+flex-direction: row;
 background: none;
 min-height: 95vh;
+width: 80%;
+
+padding: 1px 0;
+
+
 
 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -17,19 +22,18 @@ min-height: 95vh;
   @media (max-width: 768px) {
      width: 380px;
 
+flex-direction: column;
         
 
     } 
 `;
 
 export const ModuleContainer = styled.div`
- padding: 1rem;
-
-  margin-bottom: 20px;
+padding: 1rem;
+ margin: 10px;  // Margem em todos os lados
  background: rgb(9, 16, 19);
- border: 1px solid rgb(62, 58, 74);
+ border: 2px solid rgb(62, 58, 74);
  border-radius: 4px 4px 0px 0px;
-
 
   
 
