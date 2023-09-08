@@ -13,6 +13,12 @@ const SpecialOffer: React.FC<Props> = ({  newPrice, installments }) => {
   function formatPrice(value: number): string {
     return value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   }
+
+  const link = 'https://mpago.la/1Yyu1dH';
+
+  const handleClick = () => {
+    window.location.href = link;
+  };
   
 
   return (
@@ -37,6 +43,9 @@ const SpecialOffer: React.FC<Props> = ({  newPrice, installments }) => {
         {installments}x de</span><strong>R${formatPrice(newPrice / installments)}
             </strong> </Installment>
         <NewPrice> ou R${newPrice} à vista</NewPrice>
+        <a href={link} onClick={handleClick}>
+      <button>Ir para o link</button>
+    </a>
         <BuyButton />
       </PriceDetails>
     </Container>

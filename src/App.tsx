@@ -36,23 +36,21 @@ function App()
         <GlobalStyles />
         <Container>
           <Row>
-            <Col xs={12} md={6} xl={10}>
-              
-            </Col>
+            
             <Col xs={12} md={12} xl={11}>
               <HeroSection />
               
             </Col>
           </Row>
          <Row>
-          <Col xs={12} md={12} xl={14}>
+          <Col xs={12} md={12} xl={16}>
           
           <CourseInfo/>
           </Col>
          </Row>
 
          <Row>
-          <Col xs={12} md={12} xl={12}>
+          <Col xs={12} md={12} xl={16}>
           
           <AboutUsSection/>
 
@@ -61,7 +59,7 @@ function App()
          </Row>
 
          <Row>
-          <Col xs={12} md={12} xl={14}>
+          <Col xs={12} md={12} xl={16}>
          <CourseOrigin />
           </Col>
          </Row>

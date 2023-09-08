@@ -11,7 +11,7 @@ const MyComponent: React.FC = () => {
  
   return (
     <div>
-      <Wallet initialization={{ preferenceId: '13392727-8a8cd832-4525-44cb-9537-b5c2ced84b1d', redirectMode: 'blank' } }  />
+      <Wallet initialization={{ preferenceId: '1339732727-f004cd56-24e9-4755-a9ff-44a4d43435aa', redirectMode: 'blank' } }  />
     </div>
   );
 };

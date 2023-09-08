@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledLogo = styled.img`
-    width: 250px;  /* Tamanho fixo, mas você pode ajustar conforme necessário */
+    width: 500px;  /* Tamanho fixo, mas você pode ajustar conforme necessário */
     /* Espaço em torno do logo */
   
   transition: transform 0.3s ease;  /* Transição suave para efeitos de hover */

@@ -22,18 +22,17 @@ export const HeroContainer = styled.div`
 export const TitleContainer= styled.div `
   background: none;
 
-
   &::before, &::after { 
     content: '';
     display: block;
     margin: 20px auto;
     max-width: 20%;
 
-    border-bottom: 10px solid #F2A81D;
+    border-bottom: 5px solid #F2A81D;
   }
 
   &::before {
-    border-top: 10px solid #F2A81D;
+    border-top: 5px solid #F2A81D;
     border-bottom: none;
     width:200px;
   
@@ -63,6 +62,7 @@ export const LogoContainer = styled.div `
 display: flex;
 justify-content: center;
 background: none;
+margin-top:80px;
 
 @media (max-width: 768px) {
       
