@@ -8,7 +8,7 @@ import Module from './../Title';
 
 const modules: CourseModule[] = [
     {
-      day: 'Dia 1 - Introdução ao Polimento',
+      day: 'Dia 1 ',
       content: [
         {
           title: 'Introdução ao Processo de Preparação',
@@ -65,7 +65,7 @@ const modules: CourseModule[] = [
             ],
     },
     {
-      day: 'Dia 2 - Técnicas Avançadas de Polimento',
+      day: 'Dia 2',
       content: [
         {
           title: 'Introdução à Vitrificação e Revestimento Cerâmico',
