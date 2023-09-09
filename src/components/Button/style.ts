@@ -1,5 +1,14 @@
+import styled ,{keyframes} from 'styled-components';
+
+const slideIn = keyframes`
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+`;
 import { ButtonHTMLAttributes } from "react";
-import styled from "styled-components";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
     color?: string;
@@ -7,6 +16,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   };
   
 export const StyledButton = styled.button<ButtonProps>`
+  animation: ${slideIn} 0.8s forwards;
 
       padding: 12px 25px;
   color: #091013;

@@ -1,6 +1,13 @@
-import styled from 'styled-components';
+import styled ,{keyframes} from 'styled-components';
 
-
+const slideIn = keyframes`
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+`;
 export const HeroContainer = styled.div`
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 20%), url('/assets/images/CARRO.webp');
     background-size: cover;
@@ -15,12 +22,12 @@ export const HeroContainer = styled.div`
   
     width: 100vw;
     margin: 0; 
-
     // Certifique-se de que não há margens indesejadas
 `;
 
 export const TitleContainer= styled.div `
   background: none;
+  animation: ${slideIn} 0.7s forwards;
 
   &::before, &::after { 
     content: '';
@@ -58,6 +65,7 @@ export const TitleContainer= styled.div `
 `;
 
 export const LogoContainer = styled.div `
+    animation: ${slideIn} 0.8s forwards;
 
 display: flex;
 justify-content: center;
@@ -82,6 +90,7 @@ export const HeroTitle = styled.h1`
     font-size: 48px;
     letter-spacing: -0.05em;
     font-weight: 700;
+    
 
     >span {
       display: block;
@@ -146,6 +155,7 @@ export const SubTitle = styled.small `
  font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
 margin-top: 10px;
 font-weight: 600;    
+
 
 
 `

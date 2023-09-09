@@ -17,6 +17,7 @@ import CourseOrigin from "./components/CourseOrigin";
 
 import SpecialOffer from "./components/SpecialOffer";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 library.add(faBars);
 
@@ -100,6 +101,12 @@ function App()
          <Row>
          <Col xs={12} md={12} xl={16}>
 <FAQ data={faqData} />
+          </Col>
+         </Row>
+
+         <Row>
+         <Col xs={12} md={12} xl={16}>
+<Footer/>
           </Col>
          </Row>
         </Container>

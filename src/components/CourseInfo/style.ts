@@ -1,5 +1,14 @@
-import styled from "styled-components";
-
+import styled, {keyframes} from "styled-components";
+const fadeInUp = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 export const InfoWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -16,7 +25,7 @@ export const InfoWrapper = styled.div`
 
 `;
 
-export const InfoItem = styled.div`
+export const InfoItem = styled.div<{ isVisible?: boolean }>`
   flex: 2;
   min-width: 160px; 
   padding: 10px;
@@ -26,8 +35,9 @@ export const InfoItem = styled.div`
  background: rgb(9, 16, 19);
  border: 1px solid rgb(62, 58, 74);
  border-radius: 4px 4px 0px 0px;
- 
- 
+ animation: ${fadeInUp} 0.6s forwards;
+  animation-delay: ${({ isVisible }) => (isVisible ? '0s' : '0.6s')};
+  opacity: 0
  
   
 `;
