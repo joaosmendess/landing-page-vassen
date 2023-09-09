@@ -9,9 +9,9 @@ display: flex;
 
 flex-direction: row;
 background: none;
-min-height: 95vh;
-width: 80%;
-
+min-height: 80vh;
+width: 85%;
+align-items: stretch;
 padding: 1px 0;
 
 
@@ -19,10 +19,13 @@ padding: 1px 0;
 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
-  @media (max-width: 768px) {
-     width: 380px;
+  @media (max-width: 767px) {
+     width: 385px;
 
 flex-direction: column;
+
+
+flex: 1;
         
 
     } 
@@ -34,8 +37,9 @@ padding: 1rem;
  background: rgb(9, 16, 19);
  border: 2px solid rgb(62, 58, 74);
  border-radius: 4px 4px 0px 0px;
-
+ overflow: auto;
   
+
 
   
   `

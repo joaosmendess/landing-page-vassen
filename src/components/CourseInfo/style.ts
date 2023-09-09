@@ -21,7 +21,7 @@ export const InfoItem = styled.div`
   min-width: 160px; 
   padding: 10px;
   text-align: center;
-  height: 180px;
+  max-height: 275px;
   margin-bottom: 20px;
  background: rgb(9, 16, 19);
  border: 1px solid rgb(62, 58, 74);
