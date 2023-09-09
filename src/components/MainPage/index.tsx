@@ -118,7 +118,7 @@ const modules: CourseModule[] = [
     return (
       <Container  id="main-page">
         <ModuleContainer >
-        <Module title='Como funciona?'/>
+        <Module title='COMO FUNCIONA?'/>
 
         </ModuleContainer>
      
