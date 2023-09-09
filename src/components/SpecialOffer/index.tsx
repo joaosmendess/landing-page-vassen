@@ -14,8 +14,8 @@ const SpecialOffer: React.FC<Props> = ({  newPrice, installments }) => {
 
   
 
-  const whatsappNumber = "5582999259103"; // Inclua o código do país (55 para Brasil).
-  const initialMessage = encodeURIComponent("Olá! Quero me inscrever para o evento.");
+  const whatsappNumber = "5582991200205"; // Inclua o código do país (55 para Brasil).
+  const initialMessage = encodeURIComponent("Olá! Quero me inscrever para o curso.");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${initialMessage}`;
 
 
