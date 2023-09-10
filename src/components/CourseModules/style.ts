@@ -20,7 +20,7 @@ padding: 1px 0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 767px) {
-     width: 385px;
+     width: 380px;
 
 flex-direction: column;
 
