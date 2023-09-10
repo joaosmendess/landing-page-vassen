@@ -29,7 +29,7 @@ const CourseInfo: React.FC = () => {
         onChange={(isVisible: boolean | ((prevState: boolean) => boolean)) => setIsVisible(isVisible)}
       >
       <InfoItem>
-        <Count>3 dias</Count>
+        <Count>2 dias</Count>
         <Description>intensivos de aprendizado e prática direcionados para a excelência profissional no setor</Description>
       </InfoItem>
       </VisibilitySensor>
