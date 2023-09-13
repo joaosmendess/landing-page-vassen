@@ -8,7 +8,7 @@ import Module from './../Title';
 
 const modules: CourseModule[] = [
     {
-      day: 'Dia 1 ',
+      day: 'POLIMENTO ',
       content: [
         {
           title: 'Introdução ao Processo de Preparação',
@@ -65,7 +65,7 @@ const modules: CourseModule[] = [
             ],
     },
     {
-      day: 'Dia 2',
+      day: 'VITRIFICAÇÃO',
       content: [
         {
           title: 'Introdução à Vitrificação e Revestimento Cerâmico',
@@ -118,7 +118,7 @@ const modules: CourseModule[] = [
     return (
       <Container  id="main-page">
         <ModuleContainer >
-        <Module title='COMO FUNCIONA?'/>
+        <Module title='ASSUNTOS DO CURSO'/>
 
         </ModuleContainer>
      

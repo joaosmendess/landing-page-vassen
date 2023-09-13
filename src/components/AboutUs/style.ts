@@ -99,5 +99,8 @@ export const AboutUsDescription = styled.p`
     font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
     text-align: justify;
     text-justify: inter-word;
-    margin-bottom: 20px;  // Espaçamento no final para separar do próximo elemento
+    margin-bottom: 20px; 
+    padding: 0 1rem;
+
+     // Espaçamento no final para separar do próximo elemento
 `;

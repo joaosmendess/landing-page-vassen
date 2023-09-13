@@ -12,7 +12,7 @@ const CourseInfo: React.FC = () => {
       >
       <InfoItem isVisible= {isVisible}> 
         <Count>Certificado de Conclusão</Count>
-        <Description>Comprove sua especialização em polimento e vitrificação e destaque-se no mercado</Description>
+        <Description>Comprove sua especialização, destaque-se no mercado com certificado RevestPro com carga horária de 25 horas</Description>
       </InfoItem>
       </VisibilitySensor>
       <VisibilitySensor 
@@ -21,7 +21,7 @@ const CourseInfo: React.FC = () => {
       >
       <InfoItem>
         <Count>Material completo</Count>
-        <Description>repleto de orientações detalhadas e dicas especializadas </Description>
+        <Description> Apostila detalhada e kit surpresa brinde para os alunos </Description>
       </InfoItem>
       </VisibilitySensor>
       <VisibilitySensor 
@@ -29,8 +29,8 @@ const CourseInfo: React.FC = () => {
         onChange={(isVisible: boolean | ((prevState: boolean) => boolean)) => setIsVisible(isVisible)}
       >
       <InfoItem>
-        <Count>2 dias</Count>
-        <Description>intensivos de aprendizado e prática direcionados para a excelência profissional no setor</Description>
+        <Count>3 dias</Count>
+        <Description>Intensivos de imersão, aprendizado e prática direcionados para a excelência profissional no setor</Description>
       </InfoItem>
       </VisibilitySensor>
       <VisibilitySensor 
@@ -39,7 +39,7 @@ const CourseInfo: React.FC = () => {
       >
       <InfoItem>
         <Count>Uma chance única!</Count>
-        <Description> Sorteio de uma experiência de uma semana trabalhando na Vassen</Description>
+        <Description> Curso presencial em Maceió, Alagoas. <br></br> Nos dias 10, 11, 12  de Novembro (sexta, sábado e domingo)</Description>
       </InfoItem>
       </VisibilitySensor>
     </InfoWrapper>

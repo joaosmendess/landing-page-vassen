@@ -30,7 +30,7 @@ export const InfoItem = styled.div<{ isVisible?: boolean }>`
   min-width: 160px; 
   padding: 10px;
   text-align: center;
-  max-height: 275px;
+  max-height: 355px;
   margin-bottom: 20px;
  background: rgb(9, 16, 19);
  border: 1px solid rgb(62, 58, 74);

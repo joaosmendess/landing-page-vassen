@@ -70,7 +70,7 @@ export const LogoContainer = styled.div `
 display: flex;
 justify-content: center;
 background: none;
-margin-top:80px;
+margin-top:0px;
 
 @media (max-width: 768px) {
       
@@ -155,7 +155,25 @@ export const SubTitle = styled.small `
  font-family: Poppins, "Segoe UI", Verdana, Arial, sans-serif;
 margin-top: 10px;
 font-weight: 600;    
+animation: ${slideIn} 0.8s forwards;
 
 
 
 `
+
+export const StyledLogoRevest = styled.img`
+     max-width: 130px; // Ajuste conforme necessário
+    max-height: 130px; // Ajuste conforme necessário
+    height: auto;
+    margin-top: 40px;
+    // adicione mais estilos conforme a necessidade
+    transition: transform 0.3s ease;  /* Transição suave para efeitos de hover */
+
+&:hover {
+  transform: scale(1.05);  /* Efeito de zoom quando passa o mouse por cima */
+
+};
+cursor: pointer; 
+animation: ${slideIn} 0.8s forwards;
+
+`;

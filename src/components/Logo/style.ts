@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledLogo = styled.img`
-    width: 500px;  /* Tamanho fixo, mas você pode ajustar conforme necessário */
+    max-width: 300px;  /* Tamanho fixo, mas você pode ajustar conforme necessário */
     /* Espaço em torno do logo */
-  
+  display: flex;
   transition: transform 0.3s ease;  /* Transição suave para efeitos de hover */
 
   &:hover {

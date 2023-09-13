@@ -60,7 +60,7 @@ export const StyledLi = styled.li`
 export const PriceDetails = styled.div`
   flex: 0.25;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 50px;
   display: flex;
   justify-content: end;
   flex-direction: column;
@@ -165,3 +165,47 @@ text-decoration: none;
   }
 
 `;
+
+export const StyledLogoRevest = styled.img`
+     max-width: 120px; // Ajuste conforme necessário
+    max-height: 130px; // Ajuste conforme necessário
+    height: auto;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // adicione mais estilos conforme a necessidade
+    transition: transform 0.3s ease;
+&:hover {
+  transform: scale(1.05);  /* Efeito de zoom quando passa o mouse por cima */
+
+};
+
+`;
+export const StyledLogoVassen = styled.img`
+     max-width: 170px; // Ajuste conforme necessário
+    max-height: 150px; // Ajuste conforme necessário
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // adicione mais estilos conforme a necessidade
+    transition: transform 0.3s ease;
+&:hover {
+  transform: scale(1.05);  /* Efeito de zoom quando passa o mouse por cima */
+
+};
+
+
+`;
+
+export const LogoDiv = styled.div `
+
+display: flex;
+flex-direction: row;
+ justify-content: center; 
+ gap: 20;
+
+
+`

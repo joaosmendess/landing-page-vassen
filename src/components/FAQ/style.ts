@@ -53,3 +53,19 @@ export const MapEmbed = styled.iframe`
         height: 250px;
     }
 `;
+export const IconLink = styled.a`
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.2);  // Aumenta o ícone em 20% quando o mouse passa por cima
+  } `;
+
+export const SocialContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os ícones */
+  margin-top: 20px;
+  cursor: pointer;
+  
+  
+`;

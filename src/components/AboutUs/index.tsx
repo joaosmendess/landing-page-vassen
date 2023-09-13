@@ -18,7 +18,7 @@ const AboutUsSection: React.FC = () => (
         atendimentos do setor automotivo. Sempre inovando com serviços
         inovadores e com excelência na cidade de Maceió. Iniciado apenas com
         lavagem a seco, hoje atua na estética automotiva com polimentos,
-        higienizações, lavagem, envelopamento, PPF e cursos.
+        higienizações, lavagem, envelopamento,PPF e cursos.
       </AboutUsDescription>
     </AboutUsText>
   </AboutUsContainer>
