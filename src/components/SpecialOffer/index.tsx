@@ -38,7 +38,7 @@ const SpecialOffer: React.FC<Props> = ({  newPrice, installments }) => {
 
       <PriceDetails>
         <Installment>GARANTA SUA VAGA POR APENAS <span>{installments}x de</span><strong>R${formatPrice(newPrice / installments)}</strong></Installment>
-        <NewPrice> ou R$759,00 à vista</NewPrice>
+        <NewPrice> ou R$727,00 à vista</NewPrice>
        
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <WhatsappButton>Quero me inscrever agora!</WhatsappButton>
