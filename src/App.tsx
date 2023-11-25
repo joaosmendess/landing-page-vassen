@@ -64,14 +64,14 @@ function App()
             </Col>
           </Row>
          <Row>
-          <Col xs={12} md={12} xl={16}>
+          <Col xs={12} md={12} xl={20}>
           
           <CourseInfo/>
           </Col>
          </Row>
 
          <Row>
-          <Col xs={12} md={12} xl={16}>
+          <Col xs={12} md={12} xl={20}>
           
           <AboutUsSection/>
 
@@ -80,7 +80,7 @@ function App()
          </Row>
 
          <Row>
-          <Col xs={12} md={12} xl={16}>
+          <Col xs={12} md={12} xl={14}>
          <CourseOrigin />
           </Col>
          </Row>
@@ -96,20 +96,20 @@ function App()
          </Row>
 
          <Row>
-          <Col xs={12} md={12} xl={14}>
+          <Col xs={12} md={12} xl={20}>
           <SpecialOffer originalPrice={1000} newPrice={862.6} installments={10} />
         
   
         </Col>
          </Row>
          <Row>
-         <Col xs={12} md={12} xl={16}>
+         <Col xs={12} md={12} xl={20}>
 <FAQ data={faqData} />
           </Col>
          </Row>
 
          <Row>
-         <Col xs={12} md={12} xl={16}>
+         <Col xs={12} md={12} xl={20}>
 <Footer/>
           </Col>
          </Row>
